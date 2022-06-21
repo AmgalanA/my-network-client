@@ -1,0 +1,22 @@
+export default {
+  wrapper: `w-full flex flex-col`,
+  sendContainer: `relative mt-4 bg-gray-700 h-[80px] rounded-lg py-4 px-2 flex items-center`,
+  avatar: `avatar object-cover mr-2`,
+  inputContainer: `bg-gray-800 py-2 pl-3 pr-2 rounded-lg flex flex-1 items-center`,
+  input: `input text-[16px] flex-1 text-white`,
+  icon: `text-2xl cursor-pointer text-gray-400`,
+  filesContainer: ` absolute overflow-x-auto w-full flex grid grid-cols-1 z-10 md:grid-cols-3 lg:grid-cols-4 animate-slide-fwd  top-[72px] px-1 py-2  rounded-b-lg left-0 bg-gray-800 bg-opacity-80`,
+  imageFile: `w-full h-full object-cover`,
+  fileContainer: `object-contain mx-1 my-1 h-24 mx-1 relative flex items-center justify-center`,
+  // imageFileContainer: `object-contain mx-1 my-1 h-24 mx-1 relative flex items-center justify-center`,
+  // videoFileContainer: `flex mx-1 my-1 items-center justify-center w-[90%] h-28 relative bg-black`,
+  closeIcon: `absolute bg-black transition-all duration-200 bg-opacity-70 hover:bg-opacity-60 rounded-sm cursor-pointer -top-0 text-white -right-0`,
+  sendIcon: `ml-1 h-[26px] w-[26px] text-gray-400`,
+  videoFile: `w-full h-full`,
+  videoDuration: `absolute bottom-0 right-0 bg-black text-white text-xs p-[5px]`,
+  postsContainer: `mt-6 flex flex-col-reverse`,
+  addedPostsContainer:
+    'border-2 text-white flex flex-col space-y-2 items-center py-2 rounded-full border-gray-300',
+  addedPostsText: ``,
+  refreshButton: `border-2 border-blue-300 font-semibold hover:border-blue-400 rounded-full h-[36px] flex items-center justify-center w-48`,
+}

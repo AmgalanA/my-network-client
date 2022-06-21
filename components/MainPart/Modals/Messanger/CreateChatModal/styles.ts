@@ -1,0 +1,18 @@
+export default {
+  wrapper: `fixed top-0 inset-0 z-10 bg-black bg-opacity-60 w-screen h-screen flex items-center h-screen`,
+  container: `relative w-full flex flex-col space-y-3 max-w-xl rounded-lg mx-auto bg-gray-800  px-5`,
+  closeIcon: `absolute top-4 text-lg right-4 cursor-pointer`,
+  title: `text-lg font-semibold border-b-2`,
+  form: `flex flex-col`,
+  inputsContainer: `flex items-center my-3 justify-evenly`,
+  inputContainer: `flex flex-col flex-[0.45]`,
+  subtitle: `text-sm mb-1 text-gray-400 font-semibold`,
+  input: `border-b-2 pb-1 input text-white placeholder:text-gray-300`,
+  uploadAvatarContainer: `bg-gray-600 rounded-md py-3 transition-all duration-200 mt-5 mb-3 flex flex-col items-center space-y-2 w-full mx-auto`,
+  uploadIcon: `text-2xl cursor-pointer`,
+  uploadButton: `mx-auto text-center font-semibold w-full`,
+  selectedImage: `max-h-[60%] relative`,
+  image: `max-h-[500px]`,
+  closeSelectedImageIcon: `absolute top-0 right-0 text-xl cursor-pointer`,
+  button: `h-[40px] my-5 disabled:bg-gray-500 disabled:cursor-not-allowed rounded-full bg-[#197bf4] `,
+}
